@@ -1,7 +1,7 @@
 
 
-use std::ptr
-use std::alloc::{alloc, dealloc}
+use std::ptr;
+use std::alloc::{alloc, dealloc};
 
 
 struct Node {
@@ -31,11 +31,15 @@ impl Tree {
         }
     }
     fn getHeight(root: &Node) -> usize {
-        if root
         root.height
     }
-    fn getBalance(root: &Node) -> isize {
-        
+    fn getBalance(root: &Node)  {
+       
     }
-    
+}
+
+
+
+fn main() {
+    println!("HELLO WORLD")
 }
